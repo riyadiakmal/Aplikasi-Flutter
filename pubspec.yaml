@@ -1,0 +1,36 @@
+name: myapp
+description: A new Flutter project.
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+flutter:
+  assets:
+    - assets/local_image.png
+    - assets/data.json
+    - assets/set1/image.png
+    - assets/set2/image.png
+  fonts:
+    - family: MyLocalFont
+      fonts:
+        - asset: assets/fonts/MyLocalFont.ttf
+    - family: FontSet1
+      fonts:
+        - asset: assets/fonts/FontSet1.ttf
+    - family: FontSet2
+      fonts:
+        - asset: assets/fonts/FontSet2.ttf
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^3.2.3
+  google_fonts: ^4.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Jika ada dependensi lain yang diperlukan untuk pengujian, tambahkan di sini.
+  flutter_lints: ^2.0.0
+
+
